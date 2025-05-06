@@ -160,8 +160,8 @@ erDiagram
 flowchart TD
     A[Client Request] --> B[index.php]
     B --> C[Load Config & Models]
-    B --> D[Load Controllers]
-    B --> E[Initialize Database]
+    C --> D[Load Controllers]
+    D --> E[Initialize Database]
     
     E --> F{Get Controller}
     F -->|mahasiswa| G[MahasiswaController]
@@ -223,3 +223,4 @@ Untuk request "lihat semua mahasiswa":
 4. Pengelolaan session untuk sistem autentikasi (jika diperlukan)
 
 # Dokumentasi
+![2025-05-05 08-35-03 (1)](https://github.com/user-attachments/assets/a272556e-df61-4460-97d2-e59f61802aa0)
