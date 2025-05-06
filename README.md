@@ -5,8 +5,7 @@ Saya Muhammad Ichsan Khairullah dengan NIM 2306924 mengerjakan Tugas Praktikum 8
 
 # Desain Program
 Program ini menggunakan arsitektur MVC (Model-View-Controller) dengan struktur:
-```
-Mermaid
+```mermaid
 classDiagram
     class Database {
         -conn
